@@ -1,4 +1,3 @@
-#[allow(dead_code)]
 pub fn longest_common_prefix(strs: Vec<String>) -> String {
     strs.into_iter()
         .reduce(|acc, cur| {

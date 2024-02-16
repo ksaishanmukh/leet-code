@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 mod longest_common_prefix;
 mod merge_two_sorted_lists;
 mod roman_to_integer;

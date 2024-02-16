@@ -1,4 +1,3 @@
-#[allow(dead_code)]
 pub fn is_valid(s: String) -> bool {
     if s.len() % 2 != 0 {
         return false;

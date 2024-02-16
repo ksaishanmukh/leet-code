@@ -1,4 +1,3 @@
-#[allow(dead_code)]
 pub fn roman_to_int(s: String) -> i32 {
     let (res, _) = s.chars().fold((0 as i32, 0 as i32), |(acc, prev), x| {
         let v: i32 = match x {
